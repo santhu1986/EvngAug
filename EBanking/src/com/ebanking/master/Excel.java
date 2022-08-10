@@ -18,8 +18,8 @@ public class Excel {
 		
 		Library Lb=new Library();
 		
-		Lb.OpenApp("http://122.175.8.158/ranford2");
-	    Lb.AdminLgn("Admin","Mq$ystems@");
+		Lb.OpenApp("http://192.168.1.4/ranford2");
+	    Lb.AdminLgn("Admin","Admin");
 
 	    //To Get Excel File 
 	    
