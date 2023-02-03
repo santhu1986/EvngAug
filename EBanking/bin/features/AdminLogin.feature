@@ -1,9 +1,9 @@
-Feature: Login Functionality
+Feature: Admin Login Functionality
 
-Scenario: Login with Valid Data
+Scenario: Verify Admin Login Functionality
 
-Given User Should on Ranford Hp
+Given User Should on Ranford Home Page
 
-When User should enters "Admin" and "Mq$ystems@" click login
+When User Should enters "Admin" and "Admin"
 
-Then User Validates Admin Login Functionality
+Then User validates Admin Login

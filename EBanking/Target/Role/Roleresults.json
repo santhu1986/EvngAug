@@ -1,0 +1,330 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify Admin Login Functionality",
+        "description": "",
+        "id": "admin-login-functionality;verify-admin-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9597676600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Should on Ranford Home Page",
+            "match": {
+              "location": "AloginSD.user_Should_on_Ranford_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3657762300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Should enters \"Admin\" and \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 20
+                },
+                {
+                  "val": "Admin",
+                  "offset": 32
+                }
+              ],
+              "location": "AloginSD.user_Should_enters_UserName_and_Password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59045400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User validates Admin Login",
+            "match": {
+              "location": "AloginSD.user_validates_Admin_Login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Admin Login Functionality",
+    "description": "",
+    "id": "admin-login-functionality",
+    "keyword": "Feature",
+    "uri": "D:/Evngjuly/EBanking/src/features/AdminLogin.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 18,
+        "name": "Verify Role creation with Multiple sets of data",
+        "description": "",
+        "id": "role-creation-functionality;verify-role-creation-with-multiple-sets-of-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8704422400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Tester Should on RHP",
+            "match": {
+              "location": "RoleSD.tester_Should_on_RHP()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3699292700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Tester Enters Username and Password",
+            "match": {
+              "location": "RoleSD.tester_Enters_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3418201500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Tester click on role button",
+            "match": {
+              "location": "RoleSD.tester_click_on_role_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4113625900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tester click on new Role and enters \"TellerDcbank\" and \"E\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TellerDcbank",
+                  "offset": 37
+                },
+                {
+                  "val": "E",
+                  "offset": 56
+                }
+              ],
+              "location": "RoleSD.tester_click_on_new_Role_and_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4273097800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Tester Close the Applicaton",
+            "match": {
+              "location": "RoleSD.tester_Close_the_Applicaton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verify Role creation with Multiple sets of data",
+        "description": "",
+        "id": "role-creation-functionality;verify-role-creation-with-multiple-sets-of-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7948256100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Tester Should on RHP",
+            "match": {
+              "location": "RoleSD.tester_Should_on_RHP()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3636192700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Tester Enters Username and Password",
+            "match": {
+              "location": "RoleSD.tester_Enters_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3422079300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Tester click on role button",
+            "match": {
+              "location": "RoleSD.tester_click_on_role_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4093381000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tester click on new Role and enters \"ClerkDcbank\" and \"E\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ClerkDcbank",
+                  "offset": 37
+                },
+                {
+                  "val": "E",
+                  "offset": 55
+                }
+              ],
+              "location": "RoleSD.tester_click_on_new_Role_and_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4224924500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Tester Close the Applicaton",
+            "match": {
+              "location": "RoleSD.tester_Close_the_Applicaton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verify Role creation with Multiple sets of data",
+        "description": "",
+        "id": "role-creation-functionality;verify-role-creation-with-multiple-sets-of-data;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8314005300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Tester Should on RHP",
+            "match": {
+              "location": "RoleSD.tester_Should_on_RHP()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3721089300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Tester Enters Username and Password",
+            "match": {
+              "location": "RoleSD.tester_Enters_Username_and_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3431943600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Tester click on role button",
+            "match": {
+              "location": "RoleSD.tester_click_on_role_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4079448600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Tester click on new Role and enters \"GenmanagerDcbank\" and \"E\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GenmanagerDcbank",
+                  "offset": 37
+                },
+                {
+                  "val": "E",
+                  "offset": 60
+                }
+              ],
+              "location": "RoleSD.tester_click_on_new_Role_and_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4168404700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Tester Close the Applicaton",
+            "match": {
+              "location": "RoleSD.tester_Close_the_Applicaton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Role Creation Functionality",
+    "description": "",
+    "id": "role-creation-functionality",
+    "keyword": "Feature",
+    "uri": "D:/Evngjuly/EBanking/src/features/RoleCreation.feature"
+  }
+]

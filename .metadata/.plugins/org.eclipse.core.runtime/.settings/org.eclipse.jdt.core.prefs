@@ -7,6 +7,7 @@ org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=C\:/Users/LENOVO/Downloads/ecl
 org.eclipse.jdt.core.classpathVariable.M2_REPO=C\:/Users/LENOVO/.m2/repository
 org.eclipse.jdt.core.classpathVariable.MR=C\:/Users/LENOVO/.m2/repository
 org.eclipse.jdt.core.classpathVariable.TESTNG_HOME=C\:/Users/LENOVO/Downloads/eclipse-java-photon-R-win32-x86_64/eclipse/configuration/org.eclipse.osgi/543/0/.cp
+org.eclipse.jdt.core.classpathVariable.m2_reposi=C\:/Users/LENOVO/.m2/repository
 org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
 org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8

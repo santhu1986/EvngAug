@@ -1,0 +1,28 @@
+package com.mvnpackage.programs;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class MvnSample {
+    @Test
+    public void mvn()
+	{
+	
+		WebDriver driver=new FirefoxDriver();
+		
+		driver.manage().window().maximize();
+		
+		driver.get("http://192.168.1.4/ranford2");
+		
+		//Admin Login
+		
+		 driver.findElement(By.id("txtuId")).sendKeys("Admin");
+		   driver.findElement(By.id("txtPword")).sendKeys("Admin");
+		   driver.findElement(By.xpath("//*[@id=\"login\"]")).click();
+		  
+
+	}
+
+}
